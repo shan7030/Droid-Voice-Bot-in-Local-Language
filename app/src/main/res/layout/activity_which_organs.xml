@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".WhichOrgans">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="प्रश्न:कोणत्या अवयवांचे दान करता येते??"
+        android:textColor="#000000"
+        android:background="@drawable/blackborder"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:text="आपण हृदय, दोनही मूत्रपिंडे (किडनी), यकृत (Liver) स्वादुपिंड (Pancreas) फुफुसं, त्वचा, हृदयाच्या झडपा, Cornea यांचे दान करू शकतो."
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+
+</android.support.constraint.ConstraintLayout>

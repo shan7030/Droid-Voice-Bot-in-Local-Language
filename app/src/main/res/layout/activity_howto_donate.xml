@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".HowtoDonate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/blackborder"
+            android:text="प्रश्न आणि उत्तरे :दान कसे करावे?"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="#000000"
+            android:text="प्रत्येक व्यक्ती जिवंत असताना आपली अवयव दान करण्याची इच्छा अवयवदान संमती पत्रावर स्वाक्षरी करून निर्देशित करू शकतात. प्रत्येक रुग्णालयात ट्रान्सप्लांट कॉ-ओर्डीनेटर असतात. ते डोनर कार्ड बद्दल माहिती देतात. असा फॉर्म भरलेल्या व्यक्तीने स्वतःच्या जवळच्या नातेवाईकास आपली अवयवदानाची इच्छा व्यक्त केलेली असायला हवी. अश्या व्यक्तीचा मृत्यू झाल्यावर त्याच्या नातेवाईकांनी ताबडतोब ट्रान्सप्लांट कॉ-ओर्डीनेटर शी संपर्क साधल्यावर मृत व्यक्तीचे योग्य रीतीने ऑपरेशन करून अवयव काढले जातात. यामध्ये शरीराचे कोणत्याही प्रकारचे विद्रुपीकरण होत नाही. मृत देह नातेवाईकांच्या ताब्यात दिला जातो. अवयव दान केल्यानंतर अंत्यसंस्कार करताना कोणत्याही प्रकारची अडचण येत नाही."
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

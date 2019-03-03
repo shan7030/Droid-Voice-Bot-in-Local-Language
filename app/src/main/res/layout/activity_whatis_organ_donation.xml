@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".WhatisOrganDonation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="प्रश्न :अवयवदान म्हणजे काय?"
+        android:background="@drawable/blackborder"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="जिवंतपणी वा मरणोत्तर नि:स्वार्थपणे अवयव दुसऱ्या व्यक्तीस देणे म्हणजेच अवयव दान. अवयव दान हे गुप्त दान असते. नातेवाईकास कोणताही मोबदला दिला जात नाही. तसेच अवयव कोणाला दिला आहे हेही सांगितले जात नाही. अवयव दान करून सात व्यक्तींच्या जीवनामध्ये आनंद फुलविण्याचे पुण्य मृत व्यक्तीस लाभते."/>
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

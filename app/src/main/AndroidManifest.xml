@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vikramezhil.droidspeechexample">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".Confirm"
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:parentActivityName=".ListsofDoctor"></activity>
+        <activity
+            android:name=".ListsofDoctor"
+            android:parentActivityName=".BookApointment"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".BookApointment"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".NashikMedical"
+            android:parentActivityName=".MedicalStores"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".PuneMedical"
+            android:parentActivityName=".MedicalStores"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".MedicalStores"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".CentralScheme"
+            android:parentActivityName=".SchemeSelection"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".statescheme"
+            android:parentActivityName=".SchemeSelection"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".SchemeSelection"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".Donation"
+            android:parentActivityName=".Activity_DroidSpeech" />
+        <activity
+            android:name=".HowtoDonate"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".WhichOrgans"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".WhocanDo"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".WhatisOrganDonation"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".OrganDonation"
+            android:parentActivityName=".Activity_DroidSpeech"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".Emergancy"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".Activity_DroidSpeech"
+            android:parentActivityName=".OrganDonation"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
